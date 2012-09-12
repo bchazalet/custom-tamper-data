@@ -195,6 +195,8 @@ TamperPopupDialog.prototype = {
 
    // change this to allow modification of post headers for mime-input streams.
    loadValues : function() {
+      // Adding first a row for the URL itself (to be able to change GET fields)
+      this.addHeaderRow("URL", this.uri);
       for (var header in this.requestHeaders) {
          this.addHeaderRow(header, this.requestHeaders[header]);
       }
