@@ -14,11 +14,13 @@ cd src/chrome
 #)
 
 #7z a -xr!CVS -tzip -r tamperdata.jar *
+echo "Zipping the jar"
 zip -r tamperdata.jar *
 cd ..
 cp chrome/tamperdata.jar .
 rm chrome/tamperdata.jar
 #7z a -xr!CVS -tzip tamperdata.xpi install.rdf tamperdata.jar chrome.manifest defaults 
-zip tamperdata.xpi install.rdf tamperdata.jar chrome.manifest defaults 
+echo "Zipping everything together into xpi"
+zip -r tamperdata.xpi install.rdf tamperdata.jar chrome.manifest defaults/*
 cd ..
 
