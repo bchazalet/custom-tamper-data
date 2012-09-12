@@ -1,0 +1,2 @@
+As I could have expected, nsIChannel's URI is immutable. So I am not going to be able to change it on the fly.   
+I am going to focus on modify the response on the fly then by using nsITraceableChannel.
