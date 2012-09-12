@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+
+  <Description about="urn:mozilla:install-manifest">
+    <em:id>{9c51bd27-6ed8-4000-a2bf-36cb95c0c947}</em:id>
+    <em:version>11.0.1</em:version>
+    
+    <!-- Target Application this extension can install into, 
+         with minimum and maximum supported versions. --> 
+    <em:targetApplication>
+      <Description>
+        <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+        <em:minVersion>3.5</em:minVersion>
+        <em:maxVersion>3.6.*</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+    
+    <!-- Front End MetaData -->
+    <em:name>Tamper Data</em:name>
+    <em:description>View and modify HTTP/HTTPS headers etc.</em:description>
+    <em:creator>Adam Judson</em:creator>
+    <em:homepageURL>http://tamperdata.mozdev.org</em:homepageURL>
+
+      <!-- comment this out for UMO drops, as they no longer approve 
+           extensions with external update URLs 
+         <em:updateURL>https://www.mozdev.org/p/updates/tamperdata/%7B9c51bd27-6ed8-4000-a2bf-36cb95c0c947%7D/update.rdf</em:updateURL>
+      -->
+
+    <!-- Front End Integration Hooks (used by Extension Manager)-->
+   <em:optionsURL>chrome://tamperdata/content/tamperOptions.xul</em:optionsURL>
+
+   <em:contributor>Claude Villermain - Graphs and French Translation</em:contributor>
+   <em:contributor>Alex - Ukrainian Translation</em:contributor>
+   <em:contributor>MatrixIsAllOver - Italian Translation</em:contributor>
+   <em:contributor>Kacper 'KKKas' Kwapisz. - Polish Translation</em:contributor>
+   <em:contributor>overPlumbum - Russian Translation</em:contributor>
+   <em:contributor>Thomas Landauer - German Translation</em:contributor>
+   <em:contributor>Proyecto Nave - Spanish Translation</em:contributor>
+   <em:contributor>pedsann, Rodrigo Bergmann Laurindo - Portuguese Translation</em:contributor>
+ 	<em:contributor>Many many others</em:contributor>
+
+  </Description>
+
+</RDF>

@@ -1,0 +1,79 @@
+
+<!-- MAIN CONTENT -->
+<h3>How to Use it.</h3>
+<h4>Monitoring</h4>
+<p>After installation you should find a <b>Tamper Data</b> entry under the tools menu.
+
+Select this and the log window will open.  All subsequent request will appear here.</p>
+
+<p>To see details of a request, select it.  To see details of a request header double click the
+item.</p>
+
+<p>It's probably a good idea to press clear now and then.</p>
+
+<h5>Stuff to try</h5>
+<ul>
+<li>View Source - retrieves the response from the cache</li>
+<li>Copy</li>
+<li>Export to XML</li>
+<li>Graph</li>
+</ul>
+
+<h4>Tampering</h4>
+Make sure you have read the <a href="/warnings.html">warnings</a>.
+
+<p>Press the start/stop tamper to toggle tampering.</p>
+<p>For each request (images etc. are currently filtered out) you should see a pop up prompting you to
+<ul>
+<li>tamper - trigger the tamper pop up</li>
+<li>submit - do nothing</li>
+or 
+<li>abort - cancel the request entirely</li>
+</ul>
+
+<p>When you select <b>tamper</b> you will see the tamper window.  Modify the data here.  Use the context
+menu to make common changes.</p>
+<p>Select OK to submit the modified values, cancel to submit the original data.</p>
+
+<h5>Using the context menu</h5>
+When using <b>add entry</b>, you may enter name and value at the same time.
+<p>e.g. <code>myheader=myvalue</code></p>
+The value may contain commas or equal signs.
+<br>
+<p>When using <b>add etries</b>, you can add multiple values in the form: <br>
+<code>name1=value1,name2,name3=value3</code>
+<p>Neither the names or values should contain commas.
+<br>
+<p>When using <b>add entries from file</b>, import a file in the following format:
+<br>
+<code>name=value</code><br>
+<code>name2</code><br>
+<code>name3=abc,!@#</code><br>
+<code>name4</code><br>
+<br>Blank lines at the top of the file will probably cause problems.
+
+<h4>Options</h4>
+Context menu items can be configured using the options dialog.
+<p>
+<ul>
+<li>Items are either static, or dynamic</li>
+<li>Static items appear when any item is selected.</li>
+<li>Dynamic items appear only when the item name matches the item selected.  e.g. User-Agent.  Note that the text
+matching is case sensative.</li>
+<li>Preferences can be exported and imported.  Probably easiest to export the default options, then use that file as a template</li>
+<li>Imported preferences will be added to existing preferences.</li>
+<li>The <B>delete</b> button should probably be called reset.  When pressed the selected preference will be reset to its default
+value.  If you added it, it will be removed.</li>
+</ul>
+<!-- footer -->
+</div>
+<br>
+<br>
+<p id="mozdev-feedback">
+For questions or comments about tamperdata, please send a message to <a href="mailto:adamsplugins@gmail.com">the author</a>.
+</p>
+
+<br>
+<br>
+<br>
+<!-- /footer -->

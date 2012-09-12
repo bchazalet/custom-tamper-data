@@ -1,0 +1,1 @@
+copy tamperdata.jar "C:\WINDOWS\Application Data\Mozilla\Firefox\Profiles\o9dylvhm.default\extensions\{9c51bd27-6ed8-4000-a2bf-36cb95c0c947}\chrome\tamperdata.jar"

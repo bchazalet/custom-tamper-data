@@ -1,0 +1,44 @@
+<h2>Warnings</h2>
+<h5>General</h5>
+<ul>
+<li>If you don't understand security testing, or the values contained in the request header and body,
+then <b>don't change them</b>.</li>
+<br><br>
+<li>Modifying values in headers and the request body, especially using the context menu suggestions, will <b>generally
+cause web applications to fail</b>.  Well designed web applications will detect the bad values, and fail gracefully, 
+and potentially trigger investigations of malicious behavior.  Poorly designed applications, may fail in ways
+difficult to detect, but in general, will also trigger investigations of malicious behavior.</li>
+<br><br>
+<li>I don't recommend tampering with requests to web sites outside of your direct control</li>
+</ul>
+
+<h5>Security and Privacy</h5>
+All data in request headers and body is recorded.  <br>Be aware of this when surfing to sites that request 
+passwords etc. <br>
+&nbsp;&nbsp;&nbsp;&nbsp; e.g. it may not be a good idea to leave this extension running while performing online banking.
+
+<h5>Compatibility</h5>
+As this tool modifies values in the request other tools such as <a href="http://livehttpheaders.mozdev.org">live http headers</a>
+(which the complicated parts of this code are based on) may not work correctly at the same time as <b>tamperdata</b>.
+
+<h5>Potential Bugs</h5>
+Some things I see as potential causes of problems:<ul>
+<li>Tamper confirmation pop up is modal to the tamper dialog, you can still access the browser window to add additional
+request to the queue - don't do this</li>
+<li>Request/Response pairs are stored in javascript arrays.  Run this extension for a long time any firefox may run
+out of memory - don't do this</li>
+<li>Request/Response matching will get confused by stops and multiple reloads.  Just press clear and start again</li>
+</ul>
+
+<!-- footer -->
+</div>
+<br>
+<br>
+<p id="mozdev-feedback">
+For questions or comments about tamperdata, please send a message to <a href="mailto:adamsplugins@gmail.com">the author</a>.
+</p>
+
+<br>
+<br>
+<br>
+<!-- /footer -->

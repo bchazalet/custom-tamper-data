@@ -1,0 +1,250 @@
+<!-- MAIN CONTENT -->
+<h5 class="page-header">Source Code</h5>
+
+<p id="src-intro">
+  The tamperdata source code can be accessed in either of the following ways:
+</p>
+
+<ul id="get-the-src">
+<li>View the source using the CVS <a href="http://www.mozdev.org/source/browse/tamperdata/" onClick="javascript:urchinTracker ('/source/browse');">web interface</a></li>
+<li>Check out the source using anonymous CVS with the following commands (password is guest):
+
+<pre>
+cvs -d :pserver:guest@mozdev.org:/cvs login
+cvs -z3 -d :pserver:guest@mozdev.org:/cvs co tamperdata
+</pre>
+
+</li>
+</ul>
+
+<p id="cvs-doc">CVS clients and Help Documentation can be found at <a href="http://www.cvshome.org/">cvshome.org</a>.</p>
+
+<h4>Changes</h4>
+<hr><a name="changes.10.1.1"></a>
+<h5>v 10.1.1</h5>
+<ul>
+   <li>Fix for context menu on replay popup.</li>
+   <li>Copy in detail dialog now respects encoded/unencoded radio button selection.</li>
+</ul>
+
+<hr><a name="changes.10.1.0"></a>
+<h5>v 10.1.0</h5>
+<ul>
+   <li>Graph changes.  Deal with binary post data names.  Don't put unescaped url's into the html of the graph view.  </li>
+</ul>
+
+<hr><a name="changes.10.0.4"></a>
+<h5>v 10.0.4</h5>
+<ul>
+   <li>Some Firefox 3.0 issues I missed, causing problems with the graph.</li>
+</ul>
+
+<h4>Changes</h4>
+<hr><a name="changes.10.0.3"></a>
+<h5>v 10.0.3</h5>
+<ul>
+   <li>Fixed a bug with POST header parsing, which would cause requests to be dropped.</li>
+</ul>
+
+<hr><a name="changes.10.0.2"></a>
+<h5>v 10.0.2</h5>
+<ul>
+   <li>Firefox 3.0 compatability</li>
+</ul>
+
+<hr><a name="changes.9.8.1"></a>
+<h5>v 9.8.1</h5>
+<ul>
+   <li>Firefox 2.0 compatability</li>
+   <li>Copy to clipboard from details pop-up</li>
+   <li>Portuguese translation.</li>
+</ul>
+
+<hr><a name="changes.97"></a>
+<h5>v 0.97</h5>
+<ul>
+   <li>Fixes for <b>Add items from file</b>.</li>
+</ul>
+
+<hr><a name="changes.96"></a>
+<h5>v 0.96</h5>
+<ul>
+   <li>Fixes for sizing issues with options dialog</li>
+</ul>
+
+<hr><a name="changes.95"></a>
+<h5>v 0.95</h5>
+<ul>
+   <li>Fix for tamper popup when the URL was big</li>
+   <li>Russian Translation</li>
+   <li>German Translation</li>
+</ul>
+
+<hr><a name="changes.94"></a>
+<h5>v 0.94</h5>
+<ul>
+   <li>Not quite so much French...</li>
+</ul>
+
+<hr><a name="changes.93"></a>
+<h5>v 0.93</h5>
+<ul>
+   <li>Fix for problem with tamper prompt when URL's were huge.</li>
+   <li>Fix for reply in browser bug.  Starting to think nobody is using this.</li>
+   <li>Translations: Italian, French, Spanish, Polish and Ukrainian.  Thanks to <a href="http://www.babelzilla.org">babelzilla.org</a></li>
+</ul>
+
+<hr><a name="changes.92"></a>
+<h5>v 0.92</h5>
+<ul>
+   <li>Fix for 0.91 POST value modification bug.</li>
+   <li>Preperation for translation.</li>
+</ul>
+
+<hr><a name="changes.91"></a>
+<h5>v 0.91</h5>
+<ul>
+   <li>Big changes to view-source.  Should work for almost everything now.</li>
+</ul>
+
+<hr><a name="changes.86"></a>
+<h5>v 0.86</h5>
+
+<ul>
+   <li>Fixed some bugs in 0.85</li>
+</ul>
+
+<hr><a name="changes.85"></a>
+<h5>v 0.85</h5>
+
+<ul>
+   <li>Improved RegEx for images etc.</li>
+</ul>
+
+<hr><a name="changes.84"></a>
+<h5>v 0.84</h5>
+
+<ul>
+   <li>Bug fix for delete element</li>
+   <li>Dynamic add entries</li>
+   <li>Support for multiple POST parameters with the same name.</li>
+   <li>Image etc. filter is now case-insensative.</li>
+</ul>
+
+<hr><a name="changes.82"></a>
+<h5>v 0.82</h5>
+
+<ul>
+   <li>Graph modifications - thanks again to Claude Villermain</li>
+</ul>
+
+<hr><a name="changes.80"></a>
+<h5>v 0.80</h5>
+
+<ul>
+   <li>Graphs - thanks to Claude Villermain</li>
+   <li>Fix for multipart POST tampering.</li>
+   <li>Fix for replay in browser.</li>
+   <li>Removed sidebar hotkey.</li>
+</ul>
+
+<hr><a name="changes.76"></a>
+<h5>v 0.76</h5>
+
+<p>Minor GUI changes</p>
+<ul>
+   <li>Remember window sizes and positions</li>
+   <li>Scroll to last item in log view.</li>
+</ul>
+
+<hr><a name="changes.75"></a>
+<h5>v 0.75</h5>
+<ul>
+   <li>Better handling of POST requests - e.g. POST's from Flash</li>
+   <li>Improved view source - can now view POST requests from cache</li>
+   <li>New column <b>Total Duration</b> - time from inital request to page load event</li>
+   <li>Small GUI changes - resizing of filter input and log columns</li>
+   <li>Export to XML</li>
+</ul>
+
+<hr><a name="changes.70"></a>
+<h5>v 0.70</h5>
+Some additions to the context menu:
+<ul>
+   <li>Add entry now supports name=value format</li>
+   <li>Add entries - use comma separated list</li>
+   <li>Add entries from file - file should contain name=value on each line</li>
+</ul>
+Other changes:
+<ul>
+   <li>Tamper URL popup triggered by "replay in browser".  Allows tampering with GET parameters on replay, using same
+context menus as the tamper popup.</li>
+</ul>
+
+<hr><a name="changes.66"></a>
+<h5>v 0.66</h5>
+<ul>
+   <li>Import/Export preferences.</li>
+</ul>
+
+<hr><a name="changes.65"></a>
+<h5>v 0.65</h5>
+<ul>
+   <li>Tamper menu entries are now dynamically created, and configurable through the options dialog.</li>
+   <li>Option to tamper with image etc. requests.</li>
+   <li>Options and help entries on the main window.</li>
+   <li>tamperdata can now appear on the side bar.  Note that the hot key doesn't seem to work, and tamperdata
+can be run <b>both</b> on and off the sidebar at the same time, creating two history lists, and two
+tamper points, which is probably not what you want.</li>
+   <li>Bugfix - when parameter value is set to empty string, original value used to be sent.</li>
+   <li>Internal refactoring of menu creation code and utility functions.</li>
+</ul>
+
+<hr><a name="changes.60"></a>
+<h5>v 0.60</h5>
+<ul>
+   <li>Fixes for Deer Park.  Parameter changes for some XUL functions were causing display problems on the log window.</li>
+</ul>
+
+<hr><a name="changes.58"></a>
+<h5>v 0.58</h5>
+<ul>
+   <li>filtering in log window - not sure this is that usefull, but it was hard so I'm not taking it out.<br>
+n.b. this only filters the results displayed in the log window, tampering is still triggered on all requests.</li>
+</ul>
+
+<hr><a name="changes.57"></a>
+<h5>v 0.57</h5>
+<ul>
+   <li>delete item</li>
+   <li>cascading context menus for tamper prefills</li>
+   <li>encode/decode/decimal and hex html</li>
+</ul>
+
+<hr><a name="changes.55"></a>
+<h5>v 0.55</h5>
+<ul>
+   <li><b>replay in browser</b> - resend with previous headers and post data</li>
+   <li><b>view source</b> - this turned out to be much more useful than I'd expected, it's pretty hard to get a good
+look at the source of a page full of redirects any other way.</li>
+   <li>changed update site to downloads.mozdev.org to keep in sync with deliverables</li>
+</ul>
+
+<hr><a name="changes.50"></a>
+<h5>v 0.50</h5>
+<ul>
+   <li>added automatic updates</li>
+   <li>more contect entries for user-agent</li>
+   <li>display URI in group box on tamper dialog</li>
+   <li><b>open in browser</b> context entry on main page.  Though after some though I'll probably change
+this to replay, along the lines of <a href="http://livehttpheaders.mozdev.org">live http headers</a> </li>
+</ul>
+
+<br>
+<br>
+For questions or comments about tamperdata, please send a message to <a href="mailto:adamsplugins@gmail.com">the author</a>.
+
+<br>
+<br>
+<br>
+<!-- /footer -->

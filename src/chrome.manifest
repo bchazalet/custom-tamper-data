@@ -1,0 +1,14 @@
+content tamperdata jar:tamperdata.jar!/content/ 
+locale  tamperdata en jar:tamperdata.jar!/locale/en/
+locale  tamperdata en-US jar:tamperdata.jar!/locale/en-US/
+locale  tamperdata it-IT jar:tamperdata.jar!/locale/it-IT/
+locale  tamperdata fr-FR jar:tamperdata.jar!/locale/fr-FR/
+locale  tamperdata es-ES jar:tamperdata.jar!/locale/es-ES/
+locale  tamperdata uk-UA jar:tamperdata.jar!/locale/uk-UA/
+locale  tamperdata de-DE jar:tamperdata.jar!/locale/de-DE/
+locale  tamperdata ru-RU jar:tamperdata.jar!/locale/ru-RU/
+locale  tamperdata pt-BR jar:tamperdata.jar!/locale/pt-BR/
+locale  tamperdata pl-PL jar:tamperdata.jar!/locale/pl-PL/
+
+overlay chrome://browser/content/browser.xul chrome://tamperdata/content/TasksOverlay.xul   application={ec8030f7-c20a-464f-9b0e-13a3a9e97384}
+overlay chrome://browser/content/browser.xul chrome://tamperdata/content/SidebarOverlay.xul application={ec8030f7-c20a-464f-9b0e-13a3a9e97384}

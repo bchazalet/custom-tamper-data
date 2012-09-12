@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<RDF:RDF xmlns:NS1="http://www.mozilla.org/2004/em-rdf#"
+         xmlns:NC="http://home.netscape.com/NC-rdf#"
+         xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <RDF:Seq RDF:about="rdf:#$bqXJj">
+    <RDF:li RDF:resource="rdf:#$cqXJj"/>
+  </RDF:Seq>
+  <RDF:Description RDF:about="rdf:#$cqXJj"
+                   NS1:version="10.1.0">
+    <NS1:targetApplication RDF:resource="rdf:#$fqXJj"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$fqXJj"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="2.0"
+                   NS1:maxVersion="3.0.*"
+                   NS1:updateLink="http://downloads.mozdev.org/tamperdata/tamper_data-10.1.0-fx.xpi" />
+  <RDF:Description RDF:about="urn:mozilla:extension:{9c51bd27-6ed8-4000-a2bf-36cb95c0c947}"
+                   NS1:signature="MIGTMA0GCSqGSIb3DQEBDQUAA4GBAIvBa0/DC9PKmSFZ93retK0OgRw4OWrnag+7OXR0Glqdz5qhmEHKzDoza9cynw+y+b4MBFUfDpqpjF0CoF7CwpT6qCHaPdFHH546sXVF/AjKsPrP+d7siWd9+YCTCVDGZgM03VLRJf4ZXQQb4BOpHKfAM9eEHZHcLJJty01HAnxC">
+    <NS1:updates RDF:resource="rdf:#$bqXJj"/>
+  </RDF:Description>
+</RDF:RDF>
