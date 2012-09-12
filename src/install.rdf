@@ -4,8 +4,8 @@
      xmlns:em="http://www.mozilla.org/2004/em-rdf#">
 
   <Description about="urn:mozilla:install-manifest">
-    <em:id>{9c51bd27-6ed8-4000-a2bf-36cb95c0c947}</em:id>
-    <em:version>11.0.1</em:version>
+    <em:id>my_custom_tamper_data@borischazalet.fr</em:id>
+    <em:version>11.0.2</em:version>
     
     <!-- Target Application this extension can install into, 
          with minimum and maximum supported versions. --> 
@@ -13,12 +13,12 @@
       <Description>
         <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
         <em:minVersion>3.5</em:minVersion>
-        <em:maxVersion>3.6.*</em:maxVersion>
+        <em:maxVersion>15.*</em:maxVersion>
       </Description>
     </em:targetApplication>
     
     <!-- Front End MetaData -->
-    <em:name>Tamper Data</em:name>
+    <em:name>My Custom Tamper Data</em:name>
     <em:description>View and modify HTTP/HTTPS headers etc.</em:description>
     <em:creator>Adam Judson</em:creator>
     <em:homepageURL>http://tamperdata.mozdev.org</em:homepageURL>
